@@ -8,7 +8,7 @@ MyReads is a simple book management app. You can add the books that you want to 
 ### Install mysql database and load DR.sql
 
 ```
-mysql -u {username} -p {database_name} < DR.sql
+mysql -u {username} -p < DR.sql
 ```
 
 ### Add your mysql user and password in server.py
